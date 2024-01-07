@@ -34,3 +34,7 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('aboutUs');
 });
+
+Route::get('/', function () {
+    return view('bookapp');
+});
