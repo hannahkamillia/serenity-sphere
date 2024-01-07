@@ -29,18 +29,21 @@
           </div>
           <div class="col-md-4 form-group mt-3">
             <select name="department" id="department" class="form-select">
-              <option value="">Select Department</option>
-              <option value="Department 1">Department 1</option>
-              <option value="Department 2">Department 2</option>
-              <option value="Department 3">Department 3</option>
+              <option value="">Select Treatment</option>
+              <option value="Department 1">Psychotherapy/Counseling</option>
+              <option value="Department 2">Recreational Therapies</option>
+              <option value="Department 3">Complementary Therapies</option>
             </select>
           </div>
           <div class="col-md-4 form-group mt-3">
             <select name="doctor" id="doctor" class="form-select">
               <option value="">Select Doctor</option>
-              <option value="Doctor 1">Doctor 1</option>
-              <option value="Doctor 2">Doctor 2</option>
-              <option value="Doctor 3">Doctor 3</option>
+              <option value="Doctor 1">Dr. Elara Mercer</option>
+              <option value="Doctor 2">Dr. Orion Blackwood</option>
+              <option value="Doctor 3">Dr. Seraphina Rose</option>
+              <option value="Doctor 4">Dr. Jasper Thornfield</option>
+              <option value="Doctor 5">Dr. Luna Evergreen</option>
+              <option value="Doctor 6">Dr. Felix Sinclair</option>
             </select>
           </div>
         </div>
