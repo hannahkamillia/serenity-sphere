@@ -107,7 +107,7 @@ Vendor CSS Files
         <!-- Slide 1 -->
         <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
           <div class="container">
-            <h2>Welcome to <span>Medicio</span></h2>
+            <h2>Welcome to <span>Serenity Sphere</span></h2>
             <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
             <a href="#about" class="btn-get-started scrollto">Read More</a>
           </div>
