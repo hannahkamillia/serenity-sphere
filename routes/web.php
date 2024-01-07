@@ -30,3 +30,7 @@ Route::middleware([
 Route::get('/', function () {
     return view('mainpage');
 });
+
+Route::get('/', function () {
+    return view('aboutUs');
+});
