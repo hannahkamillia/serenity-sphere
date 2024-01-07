@@ -31,10 +31,10 @@ Route::get('/', function () {
     return view('mainpage');
 });
 
-Route::get('/', function () {
+Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/', function () {
+Route::get('/appointment', function () {
     return view('bookapp');
 });
