@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\contactController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\BookAppController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,10 +35,6 @@ Route::get('/', function () {
 });
 
 
-
-Route::get('/appointment', function () {
-    return view('bookapp');
-});
-
 Route::get('/contact', [contactController::class, 'index']) ->name('contact');
 Route::get('/about', [AboutController::class, 'index']) ->name('about');
+Route::get('/appointment', [BookAppController::class, 'index']) ->name('bookapp');
