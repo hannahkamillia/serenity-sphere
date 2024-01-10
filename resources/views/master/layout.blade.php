@@ -58,7 +58,7 @@
 
       <!--<a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/seren.png" alt=""></a></h1> 
+      <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/seren.png" alt=""></a></h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -84,7 +84,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a href="{{ route('contact')}}">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -94,7 +94,7 @@
     </div>
   </header><!-- End Header -->
 
- 
+
   @yield('content')
 
   <!-- ======= Footer ======= -->
