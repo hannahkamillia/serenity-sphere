@@ -35,8 +35,12 @@
           </div>
         </div>
 
-      </div>
-      <div class="container" >
+    </div>
+    </section><!-- End About Us Section -->
+
+ <!-- ======= Appointment Section ======= -->
+ <section id="appointment" class="appointment section-bg">
+    <div class="container" >
 
       <div class="section-title">
         <br><br><br><br>
@@ -93,6 +97,6 @@
       </form>
 
     </div>
-    </section><!-- End About Us Section -->
+  </section><!-- End Appointment Section -->
 
 @endsection
