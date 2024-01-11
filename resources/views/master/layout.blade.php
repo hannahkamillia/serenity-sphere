@@ -58,7 +58,7 @@
 
       <!--<a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/seren.png" alt=""></a></h1>
+      <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/serenity sphere logo.png" alt=""></a></h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
