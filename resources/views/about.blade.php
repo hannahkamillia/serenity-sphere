@@ -9,12 +9,12 @@
         <div class="section-title">
             <br><br><br><br>
           <h2>About Us</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>At SerenitySphere, we believe in the transformative power of well-being. In a world filled with constant demands and stresses, we recognize the need for a sanctuary that fosters healing and tranquility. SerenitySphere is more than just a therapy website – it's a refuge where individuals embark on a journey towards mental, emotional, and spiritual well-being.</p>
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="assets/img/aboutus1.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>

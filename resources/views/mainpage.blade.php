@@ -109,7 +109,7 @@ Vendor CSS Files
           <div class="container">
           <h2>Welcome to <span>Serenity Sphere</span></h2>
             <p>Breathe. Believe. Be well. Start your journey to serenity at Serenity Sphere.</p>
-            <a href="#about" class="btn-get-started scrollto">Read More</a>
+            <a class="btn-get-started scrollto" href="{{ route('about')}}">Read Me</a>
           </div>
         </div>
 
@@ -201,7 +201,7 @@ Vendor CSS Files
       </div>
     </section><!-- End Cta Section -->
 
-    <!-- ======= About Us Section ======= -->
+    <!-- ======= About Us Section ======= 
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
@@ -234,7 +234,7 @@ Vendor CSS Files
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section> End About Us Section -->
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
