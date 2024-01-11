@@ -125,6 +125,7 @@
       </form>
 
     </div>
-  </section><!-- End Appointment Section -->
+  </section>
+  <!-- End Appointment Section -->
 
   @endsection
