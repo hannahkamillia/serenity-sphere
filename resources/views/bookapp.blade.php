@@ -31,7 +31,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 form-group mt-3">
-            <input type="date" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" required>
+            <input type="date" name="date" class="form-control datepicker" id="date" placeholder="DD/MM/YYYY" required>
           </div>
           <div class="col-md-4 form-group mt-3">
             <select name="department" id="department" class="form-select">
@@ -62,7 +62,7 @@
           <div class="error-message"></div>
           <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
         </div>
-        <div class="text-center"><button type="submit">Make an Appointment</button></div>
+        <div class="text-center"><button type="submit">Submit the Booking</button></div>
       </form>
 
     </div>
