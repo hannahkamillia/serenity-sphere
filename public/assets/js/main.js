@@ -276,3 +276,4 @@ var currentDate = new Date().toISOString().split('T')[0];
 
         // Set the min attribute of the date input to the current date
         document.getElementById('date').min = currentDate;
+

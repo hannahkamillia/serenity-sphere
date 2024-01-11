@@ -17,7 +17,7 @@
 
   $contact = new PHP_Email_Form;
   $contact->ajax = true;
-  
+
   $contact->to = $receiving_email_address;
   $contact->from_name = $_POST['name'];
   $contact->from_email = $_POST['email'];
@@ -37,7 +37,7 @@
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['phone'], 'Phone');
   $contact->add_message( $_POST['date'], 'Appointment Date');
-  $contact->add_message( $_POST['department'], 'Department');
+  $contact->add_message( $_POST['treatment'], 'Treatment');
   $contact->add_message( $_POST['doctor'], 'Doctor');
   $contact->add_message( $_POST['message'], 'Message');
 
