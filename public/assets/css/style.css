@@ -1067,6 +1067,101 @@ section {
 .appointment .php-email-form button[type=submit]:hover {
   background: #52c2c6;
 }
+/*--------------------------------------------------------------
+# JoinUs
+--------------------------------------------------------------*/
+.joinus .php-email-form {
+  width: 100%;
+}
+
+.joinus .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.joinus .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.joinus .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.joinus .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.joinus .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+.joinus .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.joinus .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+.joinus.php-email-form input,
+.joinus .php-email-form textarea,
+.joinus .php-email-form select {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  padding: 10px !important;
+}
+
+.joinus .php-email-form input:focus,
+.joinus .php-email-form textarea:focus,
+.joinus .php-email-form select:focus {
+  border-color: #3fbbc0;
+}
+
+.joinus .php-email-form input,
+.joinus .php-email-form select {
+  height: 44px;
+}
+
+.joinus .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.joinus .php-email-form button[type=submit] {
+  background: #3fbbc0;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.joinus.php-email-form button[type=submit]:hover {
+  background: #52c2c6;
+}
 
 /*--------------------------------------------------------------
 # Departments
@@ -1074,6 +1169,7 @@ section {
 .departments .nav-tabs {
   border: 0;
 }
+
 
 .departments .nav-link {
   border: 0;
