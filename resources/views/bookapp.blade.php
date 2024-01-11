@@ -9,8 +9,13 @@
       <div class="section-title">
         <br><br><br><br>
         <h2>Make an Appointment</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div>
+        <p>Booking an appointment with Serenity Sphere, a respected mental health center,
+            is a personalized and confidential experience. Simply reach out to our helpline,
+            express your concerns, and share your preferred consultation time. A compassionate
+            professional will assist you in scheduling an appointment with a qualified mental
+            health expert, tailored to your individual needs. Serenity Sphere prioritizes your
+            preferences, ensuring a supportive and serene environment as you embark on your mental health journey.
+     </div>
 
       <form action="forms/appointment.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
         <div class="row">
@@ -26,7 +31,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 form-group mt-3">
-            <input type="datetime" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" required>
+            <input type="date" name="date" class="form-control datepicker" id="date" placeholder="Appointment Date" required>
           </div>
           <div class="col-md-4 form-group mt-3">
             <select name="department" id="department" class="form-select">
