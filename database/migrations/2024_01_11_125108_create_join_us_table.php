@@ -12,9 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('join_us', function (Blueprint $table) {
+            
             $table->string('name',30);
-            $table->string('email')->unique();
-            $table->string('phone_no',15);
+            $table->string('email',40);
+            $table->string('phone',15);
+            $table->string('position',30);
+            $table->string('message',30);
             $table->timestamps();
         });
     }

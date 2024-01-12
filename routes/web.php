@@ -38,4 +38,5 @@ Route::get('/', function () {
 Route::get('/contact', [contactController::class, 'index']) ->name('contact');
 Route::get('/about', [AboutController::class, 'index']) ->name('about');
 Route::get('/appointment', [BookAppController::class, 'index']) ->name('bookapp');
+Route::POST('Join', 'AboutController@Join');
 //Route::get('/hero', [HomeController::class, 'index']) ->name('home');
