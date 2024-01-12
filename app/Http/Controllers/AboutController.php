@@ -26,7 +26,7 @@ class AboutController extends Controller
                                           'phone'=>$phone,
                                           'position'=>$position,
                                           'message'=>$message]);
-      if($isInsertSuccress) echo '<h1>Insert Success<\h1>';
+      if($isInsertSuccress) echo 'Your appointment request has been sent successfully. Thank you!';
       else echo '<h1>Insert Failed<\h1>';
     }
 }
