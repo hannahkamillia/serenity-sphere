@@ -13,15 +13,20 @@ class AboutController extends Controller
     {
         return view('about');
     }
-    public function Join(Request $req)
+    public function Join(Request $request)
     {
-      $data = new JoinUs;
-      $data->name=$req->name;
-      $data->email=$req->email;
-      $data->phone=$req->phone;
-      $data->position=$req->position;
-      $data->message=$req->message;
-      echo $data->save();
+      $name = $request ->input('name');
+      $email = $request ->input('email');
+      $phone = $request ->input('phone');
+      $position = $request ->input('position');
+      $message = $request ->input('message');
 
+      $isInsertSuccress = JoinUs::insert(['name'=>$name,
+                                          'email'=>$email,
+                                          'phone'=>$phone,
+                                          'position'=>$position,
+                                          'message'=>$message]);
+      if($isInsertSuccress) echo 'Your appointment request has been sent successfully. Thank you!';
+      else echo '<h1>Insert Failed<\h1>';
     }
 }
