@@ -20,16 +20,6 @@ class BookAppController extends Controller
 
     public function store(Request $request)
     {
-        /*$patient = new Patient();
-        $patient->name-$req->name;
-        $patient->email-$req->email;
-        $patient->phone-$req->phone;
-        $patient->date-$req->date;
-        $patient->treatment-$req->treatment;
-        $patient->doctor-$req->doctor;
-        $patient->message-$req->message;
-        $patient->save();*/
-
         $name = $request ->input('name');
         $email = $request ->input('email');
         $phone = $request ->input('phone');
