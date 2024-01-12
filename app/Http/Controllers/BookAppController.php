@@ -15,51 +15,29 @@ class BookAppController extends Controller
         return view('bookapp');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
+ /**
+     * Store a newly created resource in storage.*/
 
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
+     
+     public function store(Request $request)
+     {
+         $name = $request ->input('name');
+         $email = $request ->input('email');
+         $phone = $request ->input('phone');
+         $date = $request ->input('date');
+         $treatment = $request ->input('treatment');
+         $doctor = $request ->input('doctor');
+         $message = $request ->input('message');
+ 
+         $isInsertSuccress = Patient::insert(['name'=>$name,
+                                             'email'=>$email,
+                                             'phone'=>$phone,
+                                             'date'=>$date,
+                                             'treatment'=>$treatment,
+                                             'doctor'=>$doctor,
+                                             'message'=>$message]);
+         if($isInsertSuccress) echo '<h1>Insert Success<\h1>';
+         else echo '<h1>Insert Failed<\h1>';
     }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(string $id)
-    {
-        //
-    }
-}
+ }
+ 

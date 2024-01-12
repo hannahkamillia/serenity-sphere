@@ -7,5 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Patient extends Model
 {
-    use HasFactory;
+    //use HasFactory;
+    public $table = 'patient';
+    public $primaryKey ='email';
+    public $incrementing = true;
+    public $timestamps = false;
+
 }
