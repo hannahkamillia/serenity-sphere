@@ -65,7 +65,7 @@
           <li><a class="nav-link " href="#hero">Home</a></li>
           <li><a class="nav-link" href="{{ route('about')}}">About</a></li>
           <li><a class="nav-link " href="#services">Services</a></li>
-          <li><a class="nav-link " href="#departments">Departments</a></li>
+          <li><a class="nav-link" href="{{ route('feedback')}}">Feedback</a></li>
           <li><a class="nav-link " href="#doctors">Doctors</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
