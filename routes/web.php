@@ -39,7 +39,7 @@ Route::get('/', function () {
 
 
 Route::get('/contact', [contactController::class, 'index']) ->name('contact');
-Route::post('/contacts', [contactController::class, 'store']);
+Route::post('/contact', [contactController::class, 'store']);
 
 Route::get('/about', [AboutController::class, 'index']) ->name('about');
 Route::POST('/Join', [AboutController::class, 'Join']);

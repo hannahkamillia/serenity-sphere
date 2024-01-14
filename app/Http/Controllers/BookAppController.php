@@ -37,5 +37,5 @@ class BookAppController extends Controller
                                             'message'=>$message]);
         if($isInsertSuccress) echo '<h1>Insert Success<\h1>';
         else echo '<h1>Insert Failed<\h1>';
-}
+    }
 }
