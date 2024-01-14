@@ -15,7 +15,7 @@
           <div class="container">
           <h2>Welcome to <span>Serenity Sphere</span></h2>
             <p>Breathe. Believe. Be well. Start your journey to serenity at Serenity Sphere.</p>
-            <a href="#about" class="btn-get-started scrollto">Read More</a>
+            <a href="{{ route('login') }}" class="btn-get-started scrollto">Join Us</a>
           </div>
         </div>
 

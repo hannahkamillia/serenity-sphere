@@ -16,9 +16,9 @@ use App\Http\Controllers\BookAppController;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
 Route::middleware([
     'auth:sanctum',
@@ -31,7 +31,7 @@ Route::middleware([
 });
 
 Route::get('/', function () {
-    return view('mainpage');
+    return view('home');
 });
 
 
