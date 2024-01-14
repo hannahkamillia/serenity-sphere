@@ -62,7 +62,7 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link " href="#hero">Home</a></li>
+          <li><a class="nav-link " href="{{ route('home')}}">Home</a></li>
           <li><a class="nav-link" href="{{ route('about')}}">About</a></li>
           <li><a class="nav-link " href="#services">Services</a></li>
           <li><a class="nav-link" href="{{ route('feedback')}}">Feedback</a></li>

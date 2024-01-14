@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\contactController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\BookAppController;
@@ -18,9 +20,20 @@ use App\Http\Controllers\FeedbackController;
 |
 */
 
-/*Route::get('/', function () {
-    return view('welcome');
-});*/
+
+/*Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');*/
+
+//Route::get('/home', [HomeController::class,'index'])->middleware('auth')->name('home');
+
+//Route::get('post',[HomeController::class,'post'])->middleware(['auth', 'admin']);
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
 
 Route::middleware([
     'auth:sanctum',
@@ -32,9 +45,9 @@ Route::middleware([
     })->name('dashboard');
 });
 
-Route::get('/', function () {
+/*Route::get('/home', function () {
     return view('home');
-});
+});*/
 
 Route::get('/contact', [contactController::class, 'index']) ->name('contact');
 Route::post('/contact', [contactController::class, 'store']);
@@ -47,4 +60,6 @@ Route::get('/appointment', [BookAppController::class, 'index']) ->name('bookapp'
 Route::post('/booking',[BookAppController::class, 'store']);
 
 Route::get('/feedback', [FeedbackController::class, 'index']) ->name('feedback');
-//Route::get('/hero', [HomeController::class, 'index']) ->name('home');
+Route::get('/home', [HomeController::class, 'index']) ->name('home');
+
+require __DIR__.'/auth.php';
