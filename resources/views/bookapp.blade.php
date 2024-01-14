@@ -88,7 +88,6 @@
         </div>
         <div class="row">
           <div class="col-md-4 form-group mt-3">
-            <!--input type="text" name="date" class="form-control datepicker" id="date" placeholder="Pick Date for Appointment" required-->
             <input type="date" name="date" class="form-control datepicker" id="date" placeholder="Pick Date for Appointment" required>
           </div>
           <div class="col-md-4 form-group mt-3">
@@ -125,6 +124,7 @@
       </form>
 
     </div>
-  </section><!-- End Appointment Section -->
+  </section>
+  <!-- End Appointment Section -->
 
   @endsection

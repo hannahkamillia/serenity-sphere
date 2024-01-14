@@ -5,12 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class JoinUs extends Model
+class Contact extends Model
 {
    // use HasFactory;
-   public $table = 'join_us';
+   public $table = 'contacts';
    public $primaryKey ='email';
    public $incrementing = true;
    public $timestamps = false;
-
 }

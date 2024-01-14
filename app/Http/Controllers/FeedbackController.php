@@ -1,18 +1,17 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminte\Support\Facades\DB;
-use Illuminate\Http\Request;
-use App\Models\Contact;
 
-class contactController extends Controller
+use Illuminate\Http\Request;
+
+class FeedbackController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('contact');
+        return view('feedback');
     }
 
     /**
@@ -28,13 +27,7 @@ class contactController extends Controller
      */
     public function store(Request $request)
     {
-        $contact = new Contact();
-        $contact -> name = $request -> name;
-        $contact -> email = $request -> email;
-        $contact -> subject = $request -> subject;
-        $contact -> message = $request -> message;
-        $contact->save();
-        return redirect('contact');
+        //
     }
 
     /**
@@ -68,8 +61,4 @@ class contactController extends Controller
     {
         //
     }
-
-
-
-
 }

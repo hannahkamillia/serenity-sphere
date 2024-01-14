@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\contactController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\BookAppController;
+use App\Http\Controllers\FeedbackController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +37,15 @@ Route::get('/', function () {
 });
 
 
+
 Route::get('/contact', [contactController::class, 'index']) ->name('contact');
+Route::post('/contacts', [contactController::class, 'store']);
+
 Route::get('/about', [AboutController::class, 'index']) ->name('about');
+Route::POST('/Join', [AboutController::class, 'Join']);
+
 Route::get('/appointment', [BookAppController::class, 'index']) ->name('bookapp');
+Route::post('/booking',[BookAppController::class, 'store']);
+
+Route::get('/feedback', [FeedbackController::class, 'index']) ->name('feedback');
 //Route::get('/hero', [HomeController::class, 'index']) ->name('home');

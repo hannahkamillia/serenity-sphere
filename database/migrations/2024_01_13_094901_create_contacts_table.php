@@ -11,22 +11,22 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('join_us', function (Blueprint $table) {
-            
+        Schema::create('contacts', function (Blueprint $table) {
             $table->string('name',30);
             $table->string('email',40);
-            $table->string('phone',15);
-            $table->string('position',30);
-            $table->string('message',30);
+            $table->string('subject',20);
+            $table->string('message',50);
             $table->timestamps();
         });
     }
+
+
 
     /**
      * Reverse the migrations.
      */
     public function down(): void
     {
-        Schema::dropIfExists('join_us');
+        Schema::dropIfExists('contacts');
     }
 };
