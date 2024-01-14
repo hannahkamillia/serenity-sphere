@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Contact extends Model
 {
-   // use HasFactory;
+   use HasFactory;
    public $table = 'contacts';
    public $primaryKey ='email';
    public $incrementing = true;

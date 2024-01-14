@@ -33,6 +33,8 @@ class contactController extends Controller
         $contact -> email = $request -> email;
         $contact -> subject = $request -> subject;
         $contact -> message = $request -> message;
+        $contact -> created_at = today();
+        $contact -> updated_at = today();
         $contact->save();
         return redirect('contact');
     }
