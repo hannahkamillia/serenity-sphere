@@ -47,6 +47,9 @@ Route::get('/appointment', [BookAppController::class, 'index']) ->name('bookapp'
 Route::post('/booking',[BookAppController::class, 'store']);
 
 Route::get('/feedback', [FeedbackController::class, 'index']) ->name('feedback');
-//Route::get('/home', [HomeController::class, 'index']) ->name('home');
+
+route::get('/redirect',[HomeController::class, 'redirect']);
+
+route::get('/home',[HomeController::class, 'index']);
 
 require __DIR__.'/auth.php';

@@ -45,4 +45,10 @@ class AuthenticatedSessionController extends Controller
 
         return redirect('/');
     }
+
+    protected function authenticated(Request $request, $user)
+    {
+        // Your custom logic here
+        return redirect('/about');
+    }
 }
