@@ -1,3 +1,3 @@
 <a href="/">
-    <img src="public\assets\img\serenity sphere logo.png" alt="Logo" class="w-20 h-20">
+    <img src="assets/img/serenity_sphere_logo.png" alt="Logo"  width="10%" height="10%">
 </a>
