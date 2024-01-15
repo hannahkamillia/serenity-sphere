@@ -6,6 +6,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
+        <br><br><br><br>
         <h2>Feedback</h2>
         <p>Want to write something about us? Fill in your feedbacks below!</p>
       </div>
