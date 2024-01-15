@@ -67,23 +67,29 @@
           <li><a class="nav-link " href="#services">Services</a></li>
           <li><a class="nav-link" href="{{ route('feedback')}}">Feedback</a></li>
           <li><a class="nav-link " href="#doctors">Doctors</a></li>
-
-          <li class="nav-link">
-             @if (Route::has('login'))
-                <!--div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10"-->
-                    @auth
-                        <li><a class="nav-link" href="{{ url('/dashboard') }}">Login/Register</a></li>
-                    @else
-                        <li><a class="nav-link" href="{{ route('login') }}">Log in</a></li>
-
-                        @if (Route::has('register'))
-                            <li><a class="nav-link" href="{{ route('register') }}">Register</a></li>
-                        @endif
-                    @endauth
-                <!--/div-->
-            @endif
-</li>
           <li><a class="nav-link" href="{{ route('contact')}}">Contact</a></li>
+          <li class="nav-link">
+            @if (Route::has('login'))
+               <!--div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10"-->
+                   @auth
+                   <form method="POST" action="{{ route('logout') }}">
+                    @csrf
+                    <x-dropdown-link href="{{ route('logout') }}"
+                            onclick="event.preventDefault();
+                            this.closest('form').submit();">
+                        {{ __('Log Out') }}
+                    </x-dropdown-link>
+                </form>
+                   @else
+                       <li><a class="nav-link" href="{{ route('login') }}">Log in</a></li>
+
+                       @if (Route::has('register'))
+                           <li><a class="nav-link" href="{{ route('register') }}">Register</a></li>
+                       @endif
+                   @endauth
+               <!--/div-->
+           @endif
+          </li>
         </ul>
       </nav><!-- .navbar -->
 
