@@ -25,7 +25,7 @@ use App\Http\Controllers\FeedbackController;
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');*/
 
-//Route::get('/home', [HomeController::class,'index'])->middleware('auth')->name('home');
+Route::get('/home', [HomeController::class,'index'])->middleware('auth')->name('home');
 
 //Route::get('post',[HomeController::class,'post'])->middleware(['auth', 'admin']);
 
@@ -45,9 +45,9 @@ Route::middleware([
     })->name('dashboard');
 });
 
-/*Route::get('/home', function () {
+Route::get('/', function () {
     return view('home');
-});*/
+});
 
 Route::get('/contact', [contactController::class, 'index']) ->name('contact');
 Route::post('/contact', [contactController::class, 'store']);
@@ -60,6 +60,6 @@ Route::get('/appointment', [BookAppController::class, 'index']) ->name('bookapp'
 Route::post('/booking',[BookAppController::class, 'store']);
 
 Route::get('/feedback', [FeedbackController::class, 'index']) ->name('feedback');
-Route::get('/home', [HomeController::class, 'index']) ->name('home');
+//Route::get('/home', [HomeController::class, 'index']) ->name('home');
 
 require __DIR__.'/auth.php';

@@ -27,7 +27,6 @@ class HomeController extends Controller
                 return redirect()->back();
             }
         }
-        return view('home');
     }
     /*public function post(){
         return view("post");
