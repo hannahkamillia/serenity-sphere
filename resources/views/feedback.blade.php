@@ -6,6 +6,7 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
+        <br><br><br><br>
         <h2>Feedback</h2>
         <p>Want to write something about us? Fill in your feedbacks below!</p>
       </div>
@@ -19,11 +20,8 @@
           <div class="col-md-4 form-group mt-3 mt-md-0">
             <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
           </div>
-          <div>
-            //star
-          </div>
           <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+            <textarea class="form-control" name="message" rows="4" placeholder="Message (Optional)"></textarea>
           </div>
         </div>
         </div>
