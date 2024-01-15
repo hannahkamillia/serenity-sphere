@@ -40,7 +40,6 @@ Route::middleware([
 Route::get('/contact', [contactController::class, 'index']) ->name('contact');
 Route::post('/contact', [contactController::class, 'store']);
 
-
 Route::get('/about', [AboutController::class, 'index']) ->name('about');
 Route::POST('/Join', [AboutController::class, 'Join']);
 
