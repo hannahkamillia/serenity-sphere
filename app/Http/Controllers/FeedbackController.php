@@ -1,8 +1,9 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminte\Support\Facades\DB;
 use Illuminate\Http\Request;
+use App\Models\Feedback;
 
 class FeedbackController extends Controller
 {
@@ -12,6 +13,18 @@ class FeedbackController extends Controller
     public function index()
     {
         return view('feedback');
+    }
+    public function Feedback(Request $request)
+    {
+      $name = $request ->input('name');
+      $email = $request ->input('email');
+      $message = $request ->input('message');
+
+      $isInsertSuccress = Feedback::insert(['name'=>$name,
+                                          'email'=>$email,
+                                          'message'=>$message]);
+      if($isInsertSuccress) echo 'Your feedback form has been sent successfully. Thank you!';
+      else echo '<h1>Insert Failed<\h1>';
     }
 
     /**
