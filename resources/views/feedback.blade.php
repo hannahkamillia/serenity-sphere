@@ -1,7 +1,6 @@
 @extends('master.layout')
 @section('content')
 
-<!-- ======= Contact Section ======= -->
 <section id="feedback" class="feedback section-bg">
     <div class="container" data-aos="fade-up">
 
