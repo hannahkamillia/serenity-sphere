@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/serenity_sphere_logo.png" rel="icon">
+  <link href="assets/img/serenity sphere logo.png" rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -65,7 +65,7 @@
           <li><a class="nav-link " href="#services">Services</a></li>
           <li><a class="nav-link" href="{{ route('feedback')}}">Feedback</a></li>
           <li><a class="nav-link " href="#customer">Customer</a></li>
-          <li><a class="nav-link" href="{{ route('contact')}}">Contact</a></li>
+          <li><a class="nav-link" href="/contact">Contact</a></li>
           <li class="nav-link">
             @if (Route::has('login'))
                <!--div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10"-->
