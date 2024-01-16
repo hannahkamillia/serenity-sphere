@@ -65,7 +65,7 @@
           <li><a class="nav-link " href="#services">Services</a></li>
           <li><a class="nav-link" href="{{ route('feedback')}}">Feedback</a></li>
           <li><a class="nav-link " href="#customer">Customer</a></li>
-          <li><a class="nav-link" href="{{ route('contact')}}">Contact</a></li>
+          <li><a class="nav-link" href="/contact">Contact</a></li>
           <li class="nav-link">
             @if (Route::has('login'))
                <!--div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10"-->
