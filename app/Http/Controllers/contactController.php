@@ -36,7 +36,8 @@ class contactController extends Controller
         $contact -> created_at = today();
         $contact -> updated_at = today();
         $contact->save();
-        return redirect('contact');
+        return response('OK', 200);
+
     }
 
     /**

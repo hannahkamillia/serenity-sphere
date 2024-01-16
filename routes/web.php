@@ -37,10 +37,11 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/contact', [contactController::class, 'index']) ->name('contact');
-Route::post('/contact', [contactController::class, 'store']);
+Route::get('/contact', [contactController::class, 'index']) ->name('contact.index');
+Route::post('/contact', [contactController::class, 'store'])->name('contact.store');
 
-Route::get('/about', [AboutController::class, 'index']) ->name('about');
+
+Route::get('/about', [AboutController::class, 'index']) ->name('user.about');
 Route::POST('/Join', [AboutController::class, 'Join']);
 
 Route::get('/appointment', [BookAppController::class, 'index']) ->name('bookapp');

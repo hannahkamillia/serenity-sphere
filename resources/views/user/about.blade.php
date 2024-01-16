@@ -23,7 +23,7 @@
              Our platform is designed with your emotional wellness in mind, providing a refuge from the challenges life may present. 
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="bi bi-check-circle"></i> Founded in 2023 in Kuala Lumpur, Malaysia by a group of IT students.</li>
               <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
               <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
             </ul>
@@ -69,10 +69,15 @@
 
         <div class="section-title">
           <h2>Join Us</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Whether you're seeking therapy, mindfulness resources, or simply a community that understands your journey, SerenitySphere welcomes you with open arms. Together, let's explore the boundless possibilities of well-being and build a foundation for a more serene and fulfilling life.
+
+
+
+Thank you for choosing SerenitySphere – where your journey to serenity begins.</p>
         </div>
 
         <form action="Join" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+          @csrf
         
           <div class="row">
             <div class="col-md-4 form-group">

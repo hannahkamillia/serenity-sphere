@@ -62,11 +62,10 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link " href="/home">Home</a></li>
-          <li><a class="nav-link" href="/about">About</a></li>
           <li><a class="nav-link " href="#services">Services</a></li>
           <li><a class="nav-link" href="{{ route('feedback')}}">Feedback</a></li>
-          <li><a class="nav-link " href="#doctors">Doctors</a></li>
-          <li><a class="nav-link " href="/contact">Contact</a></li>
+          <li><a class="nav-link " href="#customer">Customer</a></li>
+          <li><a class="nav-link" href="/contact">Contact</a></li>
           <li class="nav-link">
             @if (Route::has('login'))
                <!--div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10"-->
@@ -92,7 +91,7 @@
         </ul>
       </nav><!-- .navbar -->
 
-      <a href="{{ route('bookapp')}}" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
+      <a href="#" class="appointment-btn scrollto"><span class="d-none d-md-inline"> </span> Print Data</a>
 
     </div>
   </header>

@@ -1991,3 +1991,9 @@ section {
   text-align: center;
   font-size: 13px;
 }
+
+#sslogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
