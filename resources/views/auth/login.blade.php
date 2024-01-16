@@ -1,4 +1,8 @@
 <x-guest-layout>
+        <x-slot name="logo" text-align="center">
+            <x-authentication-card-logo />
+        </x-slot>
+
         <x-validation-errors class="mb-4" />
 
         @if (session('status'))
@@ -36,8 +40,6 @@
                 <span class="ms-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
             </label>
         </div>
-
-
 
             <div class="flex items-center justify-end mt-4">
             <x-primary-button class="ms-3">
