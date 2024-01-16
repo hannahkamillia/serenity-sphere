@@ -41,7 +41,7 @@ Route::get('/contact', [contactController::class, 'index']) ->name('contact.inde
 Route::post('/contact', [contactController::class, 'store'])->name('contact.store');
 
 
-Route::get('/about', [AboutController::class, 'index']) ->name('about');
+Route::get('/about', [AboutController::class, 'index']) ->name('user.about');
 Route::POST('/Join', [AboutController::class, 'Join']);
 
 Route::get('/appointment', [BookAppController::class, 'index']) ->name('bookapp');

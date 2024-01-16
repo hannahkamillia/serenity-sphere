@@ -11,8 +11,9 @@ class AboutController extends Controller
     //
     public function index()
     {
-        return view('about');
+        return view('user.about');
     }
+    
     public function Join(Request $request)
     {
       $name = $request ->input('name');
