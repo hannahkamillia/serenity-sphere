@@ -38,7 +38,6 @@ class contactController extends Controller
         $contact->save();
         return response('OK', 200);
 
-
     }
 
     /**
