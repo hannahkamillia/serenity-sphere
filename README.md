@@ -63,12 +63,11 @@ This project aims to ease the user's journey in finding help for their mental he
 **3. ADMIN VIEW**
 
 3.1 Manage Booking Appointment
-- NEED TO EDIT
+- Only the admin can read, update, delete the booking appointment form filled out by the user.
 
 3.2 Manage Employee Details
-- "NEED TO EDIT
+-  Only the admin can read, update, delete the employee form filled out by the user.
 
-3.3 ANY MORE???
 
 <br>
 
@@ -152,9 +151,13 @@ The system allows the user to log in the website as a admin or customer. The adm
 - Register
   ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/f2363d1d-e316-4005-890b-f209b4b736ec)
 
+**Home page admin**
+- Admin has another view because they can update, delete, read the backend of the website such as the form filled out by the user.
+  ![WhatsApp Image 2024-01-17 at 23 07 54](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/f0c378e7-c708-4022-973a-c95bc3dbd7a3)
+
 
 **Manage Appointment Details**
-- Only the admin can see, edit and delete the patient bookings details.
+- Only the admin can create, update and delete the patient bookings details.
   ![WhatsApp Image 2024-01-17 at 23 09 21](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/ae0964c5-bbee-4196-b67d-c2e74df90be2)
 
 
@@ -162,7 +165,7 @@ The system allows the user to log in the website as a admin or customer. The adm
 <br>
 
 **Manage Employee Details**
-- Only the admin can see, edit and delete the job applications.
+- Only the admin can read, update and delete the job applications.
 ![WhatsApp Image 2024-01-17 at 23 10 33](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/44f80cf9-6097-4503-a1bb-5a826044a684)
 
 
