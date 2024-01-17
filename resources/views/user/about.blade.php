@@ -72,7 +72,7 @@
 
 
 
-Thank you for choosing SerenitySphere – where your journey to serenity begins.</p>
+         Thank you for choosing SerenitySphere – where your journey to serenity begins.</p>
         </div>
 
         <form action="Join" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">

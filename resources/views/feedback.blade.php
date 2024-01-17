@@ -1,7 +1,45 @@
 @extends('master.layout')
 @section('content')
 
+
+<section id="fed" class="fed">
 <section id="feedback" class="feedback section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+        <br><br><br><br>
+          <h2>Feedback</h2>
+          <p>Want to write something about us? Fill in your feedbacks below!</p>
+        </div>
+
+        <form action="Feedback" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+          @csrf
+
+          <div class="row">
+            <div class="col-md-4 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+            
+          </div>
+        
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">We appreciate your feedbacks. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Submit Feedback</button></div>
+        </form>
+
+      </div>
+    </section><!-- End Appointment Section -->
+<!--
+ <section id="Feedback" class="feedback section-bg">
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
@@ -25,6 +63,7 @@
         </div>
         </div>
         <div class="my-3">
+
           <div class="loading">Loading</div>
           <div class="error-message"></div>
           <div class="sent-message">Your feedback has been sent successfully. Thank you!</div>
@@ -33,7 +72,7 @@
       </form>
 
     </div>
-  </section><!-- End Appointment Section -->
+  </section> End Appointment Section -->
 
 <!-- ======= Testimonials Section ======= -->
 <section id="testimonials" class="testimonials">
@@ -118,3 +157,5 @@
 
     </div>
   </section><!-- End Testimonials Section -->
+</section>
+
