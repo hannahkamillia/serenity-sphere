@@ -26,7 +26,7 @@
           </div>
 
           <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Feedback"></textarea>
+            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
           </div>
           <div class="my-3">
             <div class="loading">Loading</div>
@@ -35,43 +35,8 @@
           </div>
           <div class="text-center"><button type="submit">Submit Feedback</button></div>
         </form>
-
       </div>
     </section><!-- End Appointment Section -->
-<!--
- <section id="Feedback" class="feedback section-bg">
-    <div class="container" data-aos="fade-up">
-
-      <div class="section-title">
-        <br><br><br><br>
-        <h2>Feedback</h2>
-        <p>Want to write something about us? Fill in your feedbacks below!</p>
-      </div>
-
-      <form action="Feedback" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-          <div class="col-md-4 form-group">
-            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-          </div>
-          <div class="col-md-4 form-group mt-3 mt-md-0">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-          </div>
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="4" placeholder="Your Comment"></textarea>
-          </div>
-        </div>
-
-        <div class="my-3">
-
-          <div class="loading">Loading</div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your feedback has been sent successfully. Thank you!</div>
-        </div>
-        <div class="text-center"><button type="submit">Submit Application</button></div>
-      </form>
-    </div>
-  </section> End Appointment Section -->
 
 <!-- ======= Testimonials Section ======= -->
 <section id="testimonials" class="testimonials">
@@ -94,7 +59,6 @@
               </p>
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
               <h3>Saul Goodman</h3>
-              {{-- <h4>Ceo &amp; Founder</h4> --}}
             </div>
           </div><!-- End testimonial item -->
 
@@ -107,7 +71,6 @@
               </p>
               <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
               <h3>Sara Wilsson</h3>
-              {{-- <h4>Designer</h4> --}}
             </div>
           </div><!-- End testimonial item -->
 
@@ -120,7 +83,6 @@
               </p>
               <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
               <h3>Jena Karlis</h3>
-              {{-- <h4>Store Owner</h4> --}}
             </div>
           </div><!-- End testimonial item -->
 
@@ -133,7 +95,6 @@
               </p>
               <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
               <h3>Matt Brandon</h3>
-              {{-- <h4>Freelancer</h4> --}}
             </div>
           </div><!-- End testimonial item -->
 
@@ -146,7 +107,6 @@
               </p>
               <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
               <h3>John Larson</h3>
-              {{-- <h4>Entrepreneur</h4> --}}
             </div>
           </div><!-- End testimonial item -->
 
@@ -157,4 +117,3 @@
     </div>
   </section><!-- End Testimonials Section -->
 </section>
-
