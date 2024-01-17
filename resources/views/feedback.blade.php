@@ -40,7 +40,6 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-        <br><br><br><br>
         <h2>Testimonials</h2>
         <p>What our customer are saying...</p>
       </div>
