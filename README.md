@@ -93,8 +93,6 @@ There is the welcoming message. There are two button which is ‘Join Us’, to 
 - The navigation bar and the footer for each page is same
 ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/b31db42d-a1c8-4b36-9411-d9cc99e6060a)
   
-
-
 <br>
 
 **About Us**
