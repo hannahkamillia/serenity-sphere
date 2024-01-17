@@ -90,12 +90,12 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                I am very satisfied with the services here. I am changing my thought process for the better and I have learned strategies to better cope with my stress.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
               <h3>Matt Brandon</h3>
-              <h4>Freelancer</h4>
+              {{-- <h4>Freelancer</h4> --}}
             </div>
           </div><!-- End testimonial item -->
 
@@ -103,12 +103,12 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                Serenity-Sphere has had a major positive impact on my life. With my clinician’s help, both my family and work life has improved significantly. I am fully functioning for the first time in many years.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
               <h3>John Larson</h3>
-              <h4>Entrepreneur</h4>
+              {{-- <h4>Entrepreneur</h4> --}}
             </div>
           </div><!-- End testimonial item -->
 
