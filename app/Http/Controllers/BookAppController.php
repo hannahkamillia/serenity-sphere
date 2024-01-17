@@ -35,7 +35,7 @@ class BookAppController extends Controller
                                             'treatment'=>$treatment,
                                             'doctor'=>$doctor,
                                             'message'=>$message]);
-        if($isInsertSuccress) echo '<h1>Insert Success<\h1>';
-        else echo '<h1>Insert Failed<\h1>';
+        if($isInsertSuccress) echo 'Your application request has been sent successfully. Thank you!';
+        else echo 'Your appointment has not been sent!';
     }
 }
