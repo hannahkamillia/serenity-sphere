@@ -1,6 +1,7 @@
 @extends('master.layout')
 @section('content')
 
+<!-- Start Feedback form -->
 <section id="feedback" class="feedback section-bg">
     <div class="container" data-aos="fade-up">
 
@@ -23,7 +24,7 @@
             <textarea class="form-control" name="message" rows="4" placeholder="Message (Optional)"></textarea>
           </div>
         </div>
-        </div>
+
         <div class="my-3">
           <div class="loading">Loading</div>
           <div class="error-message"></div>
@@ -31,9 +32,9 @@
         </div>
         <div class="text-center"><button type="submit">Submit Application</button></div>
       </form>
-
     </div>
-  </section><!-- End Appointment Section -->
+    </div>
+  </section><!-- End Feedback form -->
 
 <!-- ======= Testimonials Section ======= -->
 <section id="testimonials" class="testimonials">
