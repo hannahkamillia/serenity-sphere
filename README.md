@@ -154,11 +154,17 @@ The system allows the user to log in the website as a admin or customer. The adm
 
 
 **Manage Appointment Details**
+- Only the admin can see, edit and delete the patient bookings details.
+  ![WhatsApp Image 2024-01-17 at 23 09 21](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/ae0964c5-bbee-4196-b67d-c2e74df90be2)
+
 
 
 <br>
 
 **Manage Employee Details**
+- Only the admin can see, edit and delete the job applications.
+![WhatsApp Image 2024-01-17 at 23 10 33](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/44f80cf9-6097-4503-a1bb-5a826044a684)
+
 
 
 <br>
