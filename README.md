@@ -87,8 +87,9 @@ There is the welcoming message. There are two button which is ‘Join Us’, to 
 - Home page with welcoming message and 'Join Us' button
 ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/e5ec5bcb-c9b7-445e-b187-42d6b9759285)
 <br>
-- Home page with 'Feedback' button
-![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/577f848b-2c0c-43df-a1eb-0bd9e99bc369)
+- Home![Screenshot 2024-01-17 225408](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/cfcf7013-720b-4303-b303-cf7eba745ac0)
+ page with 'Feedback' button
+
 <br>
 - The navigation bar and the footer for each page is same
 ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/b31db42d-a1c8-4b36-9411-d9cc99e6060a)
