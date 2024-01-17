@@ -82,7 +82,7 @@ Provided below is the sequence diagram that represents the user interaction with
 
 ## Project System Designs
 **Home Page**
-
+There is the welcoming message. There are two button which is ‘Join Us’, to log in to the system and button ‘Feedback’ to user see the testimonial or fill in the feedback form.
 
 
 
