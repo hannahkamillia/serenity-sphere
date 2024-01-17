@@ -87,18 +87,21 @@ Provided below is the sequence diagram that represents the user interaction to o
 <br>
 
 **About Us**
+<br>
 Describe summary about the website such as the introduction, objectives and also the gallery part of the serenity sphere center. There is also the join us form provided if there are any therapists who want to work with Serenity Sphere. 
 
 
 <br>
 
 **Feedback**
+<br>
 Users can submit their experiences, recommendations or any complaints about Serenity Sphere’s services. It also shows the testimonials from the user who has submitted the feedback form.
 
 
 <br>
 
 **Contact Us + FAQs**
+<br>
 Provides the details about the Serenity Sphere such as our address in Google Maps, phone number and emails. This page also provides FAQs from the user. New user can refer this FAQs if there is any inquiry. If the user wants to ask a question that hasn't been asked yet, there is the form provided for them to fill in the question. 
 
 <br>
