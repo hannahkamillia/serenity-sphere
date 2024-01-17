@@ -100,7 +100,14 @@ There is the welcoming message. There are two button which is ‘Join Us’, to 
 
 **About Us**
 <br>
-Describe summary about the website such as the introduction, objectives and also the gallery part of the serenity sphere center. There is also the join us form provided if there are anyone who want to work with Serenity Sphere. 
+Describe summary about the Serenity Sphere such as the introduction, objectives and also the gallery part of the serenity sphere center. There is also the join us form provided if there are anyone who want to work with Serenity Sphere. 
+
+- Summary about the Serenity Sphere
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/9d88b7cd-4b3b-422d-aed7-734500cdea42)
+
+
+- Gallery
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/4451239c-20de-4112-b5e8-300558b38f33)
 
 - The form to join Serenity Sphere as a worker
   ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/41fbaa4e-eb07-403e-8e7d-977c421e65c4)
