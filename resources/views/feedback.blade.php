@@ -42,7 +42,7 @@
       <div class="section-title">
         <br><br><br><br>
         <h2>Testimonials</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>What our customer are saying...</p>
       </div>
 
       <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -52,12 +52,12 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                My sessions definitely helped me a lot and I have left feeling a lot more confident for my future. I most liked the flexibility in sessions and the homework like being given tasks to think about or do for next time. Everyone is very lovely and friendly, I felt very welcomed.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
               <h3>Saul Goodman</h3>
-              <h4>Ceo &amp; Founder</h4>
+              {{-- <h4>Ceo &amp; Founder</h4> --}}
             </div>
           </div><!-- End testimonial item -->
 
@@ -65,12 +65,12 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                I'm really appreaciate the teamwork for developing this website. It helps me a lot by just make an online appointment rather than have to make appoinment physically. The website also user friendly.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
               <h3>Sara Wilsson</h3>
-              <h4>Designer</h4>
+              {{-- <h4>Designer</h4> --}}
             </div>
           </div><!-- End testimonial item -->
 
@@ -78,12 +78,12 @@
             <div class="testimonial-item">
               <p>
                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                Overall, your website has become a trusted companion on my mental health journey, and I wanted to express my gratitude for the positive impact it has had on my life. Thank you for creating a space that fosters understanding, empathy, and empowerment.
                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
               <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
               <h3>Jena Karlis</h3>
-              <h4>Store Owner</h4>
+              {{-- <h4>Store Owner</h4> --}}
             </div>
           </div><!-- End testimonial item -->
 
