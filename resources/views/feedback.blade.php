@@ -26,7 +26,7 @@
           </div>
 
           <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+            <textarea class="form-control" name="message" rows="5" placeholder="Feedback"></textarea>
           </div>
           <div class="my-3">
             <div class="loading">Loading</div>
