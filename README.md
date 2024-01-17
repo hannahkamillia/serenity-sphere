@@ -107,7 +107,8 @@ Provides the details about the Serenity Sphere such as our address in Google Map
 <br>
 
 **Login & Register Account**
-
+<br>
+The system allows the user to log in the website as a admin or customer. The admin can view the backend of the application while the customer only can see the frontend of the application. For the registration, if both of them do not have any account yet, they have to register first.
 <br>
 
 **Manage Appointment Details**
