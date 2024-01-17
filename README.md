@@ -112,6 +112,15 @@ This project aims to ease the user's journey in finding help for their mental he
 
 
 
+## Challenges During Development
+
+- Working in a 6-member group evoked some challenges in regards to the communication and information transparency amongst members. This was apparent especially during task allocation and updating each other on our individual progress.
+
+- Since it was all of the members’ first attempt coding with Laravel, learning its basic concepts, as well as using Git Repositories, a lot of hours were put into learning the ropes of it all. 
+
+- Despite the convenience of ‘pulling’ and ‘pushing’ our source codes during development, it was difficult to sync our changes when multiple members were simultaneously working on the repository (from different devices). 
+
+- Even when using a pre-downloaded framework as our foundation, there was still some difficulty at first when navigating around the different files and components used in the source code.
 
 
 <br>
