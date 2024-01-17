@@ -27,10 +27,10 @@ This project aims to ease the user's journey in finding help for their mental he
 **1. GENERAL VIEW**
 
 1.1 Login Account
-- This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
+- The system allows the user to log in as a Serenity Sphere staff or admin, to view the backend of the application. 
 
 1.2 Register Account
-- This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
+- Coupled with 1.1, the system allows users to register for an account if they do not have one to begin with. 
 
 <br>
 
@@ -63,55 +63,124 @@ This project aims to ease the user's journey in finding help for their mental he
 **3. ADMIN VIEW**
 
 3.1 Manage Booking Appointment
-- NEED TO EDIT
+- Only the admin can read, update, delete the booking appointment form filled out by the user.
 
 3.2 Manage Employee Details
-- "NEED TO EDIT
+-  Only the admin can read, update, delete the employee form filled out by the user.
+
 
 <br>
 
 ## Sequence Diagram
-[Include a sequence diagram to represent the interaction of the proposed web application.]
-![Sequeance Diagram Web Apps-Sequence Diagram Web App drawio](https://github.com/surayaaini/serenity-sphere/assets/101693479/cac688e3-4d66-42ae-b8d9-29a651889ba4)
+Provided below is the sequence diagram that represents the user interaction with our web application:
+![Sequeance Diagram Web Apps-Sequence Diagram Web App drawio](https://github.com/hannahkamillia/serenity-sphere/assets/122007826/fcccaf3f-f904-4e24-9968-578e2f9ebbdb)
+
+
 
 <be>
 
-## Mockup Designs
+## Project System Designs
 **Home Page**
+There is the welcoming message. There are two button which is ‘Join Us’, to log in to the system and button ‘Feedback’ to user see the testimonial or fill in the feedback form.
+
+- Home page with welcoming message and 'Join Us' button
+![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/e5ec5bcb-c9b7-445e-b187-42d6b9759285)
+
+- Home page with 'Feedback' button
+![Screenshot 2024-01-17 225408](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/cfcf7013-720b-4303-b303-cf7eba745ac0)
 
 
+<be>
 
-
+- The navigation bar and the footer remains the same for every page in the web app
+![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/b31db42d-a1c8-4b36-9411-d9cc99e6060a)
+  
 <br>
 
 **About Us**
+<br>
+Describe summary about the Serenity Sphere such as the introduction, objectives and also the gallery part of the serenity sphere center. There is also the join us form provided if there are anyone who want to work with Serenity Sphere. 
+
+- Summary about the Serenity Sphere
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/9d88b7cd-4b3b-422d-aed7-734500cdea42)
 
 
+- Gallery
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/4451239c-20de-4112-b5e8-300558b38f33)
+
+- The form to join Serenity Sphere as a worker
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/41fbaa4e-eb07-403e-8e7d-977c421e65c4)
 
 <br>
 
 **Feedback**
+<br>
+Users can submit their experiences, recommendations or any complaints about Serenity Sphere’s services. It also shows the testimonials from the user who has submitted the feedback form.
+
+- Feedback form
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/b81dafbf-c0da-45be-a203-13ef1cc64b26)
+
+- Testimonial
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/d61dfb8b-5088-44f0-863e-21d88481140f)
 
 
 <br>
 
 **Contact Us + FAQs**
+<br>
+Provides the details about the Serenity Sphere such as our address in Google Maps, phone number and emails. This page also provides FAQs from the user. New user can refer this FAQs if there is any inquiry. If the user wants to ask a question that hasn't been asked yet, there is the form provided for them to fill in the question. 
+
+- Contact details and contact us form
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/08ab6565-b8f4-480b-afda-85ef665fbe57)
+
+- FAQs
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/04a0fc89-d356-41b0-b6b0-80b0312757d6)
+  
 
 <br>
 
 **Login & Register Account**
-
 <br>
+The system allows the user to log in the website as a admin or customer. The admin can view the backend of the application while the customer only can see the frontend of the application. For the registration, if both of them do not have any account yet, they have to register first.
+<br><br>
+
+- Login
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/ba02bc77-d63b-402f-b370-c95f199e4fa7)
+  
+
+- Register
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/f2363d1d-e316-4005-890b-f209b4b736ec)
+
+**Home page admin**
+- Admin has another view because they can update, delete, read the backend of the website such as the form filled out by the user.
+  ![WhatsApp Image 2024-01-17 at 23 07 54](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/f0c378e7-c708-4022-973a-c95bc3dbd7a3)
+
 
 **Manage Appointment Details**
+- Only the admin can create, update and delete the patient bookings details.
+  ![WhatsApp Image 2024-01-17 at 23 09 21](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/ae0964c5-bbee-4196-b67d-c2e74df90be2)
+
 
 
 <br>
 
 **Manage Employee Details**
+- Only the admin can read, update and delete the job applications.
+![WhatsApp Image 2024-01-17 at 23 10 33](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/44f80cf9-6097-4503-a1bb-5a826044a684)
 
 
 
+<br>
+
+## Challenges During Development
+
+- Working in a 6-member group evoked some challenges in regards to the communication and information transparency amongst members. This was apparent especially during task allocation and updating each other on our individual progress.
+
+- Since it was all of the members’ first attempt coding with Laravel, learning its basic concepts, as well as using Git Repositories, a lot of hours were put into learning the ropes of it all. 
+
+- Despite the convenience of ‘pulling’ and ‘pushing’ our source codes during development, it was difficult to sync our changes when multiple members were simultaneously working on the repository (from different devices). 
+
+- Even when using a pre-downloaded framework as our foundation, there was still some difficulty at first when navigating around the different files and components used in the source code.
 
 
 <br>
