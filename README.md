@@ -27,10 +27,10 @@ This project aims to ease the user's journey in finding help for their mental he
 **1. GENERAL VIEW**
 
 1.1 Login Account
-- This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
+- The system allows the user to log in as a Serenity Sphere staff or admin, to view the backend of the application. 
 
 1.2 Register Account
-- This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
+- Coupled with 1.1, the system allows users to register for an account if they do not have one to begin wth. 
 
 <br>
 
@@ -68,15 +68,17 @@ This project aims to ease the user's journey in finding help for their mental he
 3.2 Manage Employee Details
 - "NEED TO EDIT
 
+3.3 ANY MORE???
+
 <br>
 
 ## Sequence Diagram
-[Include a sequence diagram to represent the interaction of the proposed web application.]
-![Sequeance Diagram Web Apps-Sequence Diagram Web App drawio](https://github.com/surayaaini/serenity-sphere/assets/101693479/cac688e3-4d66-42ae-b8d9-29a651889ba4)
+Provided below is the sequence diagram that represents the user interaction to our web application:
+
 
 <be>
 
-## Mockup Designs
+## Project System Designs
 **Home Page**
 
 
