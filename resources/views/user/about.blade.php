@@ -16,10 +16,10 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
-            <img src="assets/img/aboutus1.jpg" class="img-fluid" alt="">
+            <img src="assets/img/therapy3.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Your Sanctuary for Healing.</h3><br><br>
+            <h3>Your Sanctuary for Healing.</h3><br>
             <p class="fst-italic">
             Welcome to "Your Sanctuary for Healing," where we understand that the journey to mental well-being is unique for each individual. In this safe haven, we offer a compassionate space where healing is nurtured and celebrated.
              Our platform is designed with your emotional wellness in mind, providing a refuge from the challenges life may present.
@@ -32,7 +32,7 @@
             <p>
                 فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا ٥
                 إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا ٦
-                <br><br>“For indeed, with hardship [will be] ease. Surely with ˹that˺ hardship comes ˹more˺ ease.”  --Surah al-Inshirah
+                <br>“For indeed, with hardship [will be] ease. Surely with ˹that˺ hardship comes ˹more˺ ease.”  --Surah al-Inshirah
             </p>
           </div>
         </div>
@@ -50,10 +50,10 @@
 
         <div class="gallery-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-1.jpeg"><img src="assets/img/gallery/gallery-1.jpeg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-2.jpeg"><img src="assets/img/gallery/gallery-2.jpeg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-3.jpeg"><img src="assets/img/gallery/gallery-3.jpeg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-4.png"><img src="assets/img/gallery/gallery-4.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/g1.jpg"><img src="assets/img/gallery/g1.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/g2.jpg"><img src="assets/img/gallery/g2.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/g3.jpg"><img src="assets/img/gallery/g3.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/g4.jpg"><img src="assets/img/gallery/g4.jpg" class="img-fluid" alt=""></a></div>
             <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-5.jpeg"><img src="assets/img/gallery/gallery-5.jpeg" class="img-fluid" alt=""></a></div>
             <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-6.jpeg"><img src="assets/img/gallery/gallery-6.jpeg" class="img-fluid" alt=""></a></div>
           </div>
