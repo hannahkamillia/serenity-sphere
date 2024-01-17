@@ -19,25 +19,45 @@ Improving and maintaining our mental well-being is an essential aspect of our da
 This project aims to ease the user's journey in finding help for their mental health. Thus, the 'SerenitySphere' web application seeks to provide users with the necessary resources such as to contact, enquire and ultimately locate available therapists around the area. With this, users can use SerenitySphere as their go-to web application to assist them in the important aspects of their mental health. More specifically, this project links with SDG 3.4, which states, "By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and **treatment and promote mental health and well-being."**
 
 ## Features and Functionalities
-1.  Home
-•  This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
-•  Users are also allowed to sign in or register for an account in order for their details to be saved to the database. 
 
-2.  Find a Therapist
-•  Online Session: Provides access to a carefully selected panel of therapists offering online consultations. It provides these specialists full profiles that highlight their areas of expertise, availability for online consultations, and scope of practice.
-•  Physical Session: Displays local therapists who are accessible for in-person sessions. It provides thorough biographies of these professionals, together with information on their offices, specialisations, and methods for simple appointment booking. In addition, users have the option to search their location and the website will display nearby therapists. This feature promotes accessibility to mental health services in the user's local region by making it simple for them to locate and get in touch with therapists nearby.
+1. GENERAL VIEW
+    1.1 Login Page
+    •  This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
 
-3.  About Us
-•  SerenitySphere's "About Us" section provides an in-depth review of the platform, outlining its fundamental values, objectives, and vision to improve mental health. It gives a detailed summary of the business's mental health initiatives and emphasises its commitment to create a welcoming, safe, and friendly space for people in need of care.
+    1.2 Register
+   •  This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
 
-4.  Feedback
-•  Users can submit their experiences, recommendations, and complaints about SerenitySphere's services in the "Feedback" area. It promotes a community-driven, participatory approach to platform improvement, creating an environment where user input directly influences continuous improvements. 
+2. USER VIEW
 
-5.  FAQ
-•  SerenitySphere's "FAQ" section serves as a knowledge base for frequent questions and issues users may have regarding its features, services, and mental health resources. It offers responses that are thorough, clear, and concise, giving users the knowledge they need to use the platform efficiently. If some questions were not answered in the FAQs page, users can opt to submit their own personal questions with the form provided. 
+   2.1  Home
+    •  This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
+    •  Users are also allowed to sign in or register for an account in order for their details to be saved to the database.
 
-6.  Contact Us
-•  Users can get in touch with SerenitySphere directly through the "Contact Us" area. It provides several ways to get in touch, such as an email address, helpline number, and an easy-to-use "Contact Form." By enabling users to send specific questions, comments, or requests for further assistance, this function further guarantees effective and customized contact between the platform and its users.
+   2.2 About Us
+   •  SerenitySphere's "About Us" section provides an in-depth review of the platform, outlining its fundamental values, objectives, and vision to improve mental health.
+   •  Provides detailed summary of the business's mental health initiatives and emphasises its commitment to creating a welcoming, safe, and friendly space.
+   •  'Join Us' form to allow future therapists who want to work with Serenity Sphere.
+
+   2.3 Feedback
+   •  Users can submit their experiences, recommendations, and complaints about SerenitySphere's services in the "Feedback" area.
+   •  Promotes a community-driven, participatory approach to platform improvement, creating an environment where user input directly influences continuous improvements.
+
+   2.4 Contact Us + FAQs
+    •  "FAQ" section serves as a knowledge base for frequent questions and issues users may have regarding its features, services, and mental health resources.
+    •  Offers thorough, clear, and concise responses, giving users the knowledge they need to use the platform efficiently.
+    •  Users can submit the form provided to ask any other (unanswered) queries they have
+
+    2.5 Make an Appointment
+    •  A page where users can reach out to Serenity Sphere's mental health services and customise their journey. 
+    •  Users can submit the form provided to make an appointment with a specific therapist, detailing their basic information, selected treatment and appointment date/time.
+
+3. ADMIN VIEW
+
+    3.1 Manage Booking Appointment
+    •  NEED TO EDIT
+
+    3.2 Manage Employee Details
+    •  "NEED TO EDIT
 
 ## Database ERD
 [Include the Entity-Relationship Diagram for your database tables.]
@@ -48,12 +68,13 @@ This project aims to ease the user's journey in finding help for their mental he
 ![Sequeance Diagram Web Apps-Sequence Diagram Web App drawio](https://github.com/surayaaini/serenity-sphere/assets/101693479/cac688e3-4d66-42ae-b8d9-29a651889ba4)
 
 ## Mockup Designs
-**Home/Landing Page (Sign In & Register Account)**
+**Home Page**
 
 ![Screenshot 2024-01-01 at 5 33 45 PM](https://github.com/surayaaini/serenity-sphere/assets/122007826/7f73d516-4edd-4c22-a986-befea213b960)
 
 
 ![Screenshot 2024-01-01 at 5 34 12 PM](https://github.com/surayaaini/serenity-sphere/assets/122007826/c7280ea1-0eb0-429f-a593-52907dae8e05)
+
 
 
 
@@ -63,31 +84,23 @@ This project aims to ease the user's journey in finding help for their mental he
 ![Screenshot 2024-01-01 at 5 34 51 PM](https://github.com/surayaaini/serenity-sphere/assets/122007826/756707eb-9fa1-4ce4-860c-83feedcfdaf9)
 
 
-**Find a Therapist**
-
-![Screenshot 2024-01-01 at 5 35 41 PM](https://github.com/surayaaini/serenity-sphere/assets/122007826/4f0ee235-b08b-4ad1-a7b0-29574aa6bfaf)
-
-
-**Find a Therapist (Online Session & Centres)**
-
-![Screenshot 2024-01-01 at 5 38 25 PM](https://github.com/surayaaini/serenity-sphere/assets/122007826/c7c2f3e2-96bd-4797-95a2-cc4774502923)
-
-![Screenshot 2024-01-01 at 5 38 44 PM](https://github.com/surayaaini/serenity-sphere/assets/122007826/fc907416-8622-4ccc-8e17-f73a6a444853)
-
-
-**FAQ**
-
-![Screenshot 2024-01-01 at 5 39 40 PM](https://github.com/surayaaini/serenity-sphere/assets/122007826/2fc9c296-de50-488d-a8f5-a3c09190e28d)
-
-
 **Feedback**
 
-![Screenshot 2024-01-01 at 5 40 09 PM](https://github.com/surayaaini/serenity-sphere/assets/122007826/5db351fd-6f92-4b8f-931c-5290a3de0ad7)
 
 
-**Contact**
+**Contact Us + FAQs**
 
-![Screenshot 2024-01-01 at 5 40 51 PM](https://github.com/surayaaini/serenity-sphere/assets/122007826/006c7462-064f-4cc4-89bd-67f8315607d6)
+
+**Login & Register Account**
+
+
+**Manage Appointment Details**
+
+**Manage Employee Details**
+
+
+
+
 
 
 ## References
