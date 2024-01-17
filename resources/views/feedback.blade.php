@@ -5,7 +5,6 @@
 <section id="fed" class="fed">
 <section id="feedback" class="feedback section-bg">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
         <br><br><br><br>
           <h2>Feedback</h2>

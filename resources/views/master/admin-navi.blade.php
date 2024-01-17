@@ -24,6 +24,9 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css">
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -61,11 +64,9 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link " href="/home">Home</a></li>
-          <li><a class="nav-link " href="#services">Services</a></li>
-          <li><a class="nav-link" href="{{ route('feedback')}}">Feedback</a></li>
-          <li><a class="nav-link " href="#customer">Customer</a></li>
-          <li><a class="nav-link" href="/contact">Contact</a></li>
+
+          <li><a class="nav-link " href="#table">Patient</a></li>
+          <li><a class="nav-link" href="#job">Job Application</a></li>
           <li class="nav-link">
             @if (Route::has('login'))
                <!--div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10"-->
@@ -91,7 +92,7 @@
         </ul>
       </nav><!-- .navbar -->
 
-      <a href="#" class="appointment-btn scrollto"><span class="d-none d-md-inline"> </span> Print Data</a>
+      <!--a href="#" class="appointment-btn scrollto"><span class="d-none d-md-inline"> </span> Print Data</a-->
 
     </div>
   </header>

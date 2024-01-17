@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use App\Models\Home;
 use App\Models\User;
+use App\Models\Patient;
 
 class HomeController extends Controller
 {
@@ -24,4 +25,10 @@ class HomeController extends Controller
     public function index(){
         return view('home');
     }
+
+    public function edit(){
+        return view('admin.edit');
+    }
+
+
 }

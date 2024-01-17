@@ -56,6 +56,8 @@ route::get('/home',[HomeController::class, 'index']);
 
 Route::POST('/Feedback', [FeedbackController::class, 'Feedback']);
 
+Route::delete('delete-patient/{email}',[HomeController::class, 'destroy']);
+
 //Route::get('/home', [HomeController::class, 'index']) ->name('home');
 
 require __DIR__.'/auth.php';
