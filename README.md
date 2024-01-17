@@ -20,44 +20,45 @@ This project aims to ease the user's journey in finding help for their mental he
 
 ## Features and Functionalities
 
-1. GENERAL VIEW
-    1.1 Login Page
+**1. GENERAL VIEW**
+
+    1.1 Login Account
 - This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
 
-    1.2 Register
-   •  This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
+    1.2 Register Account
+- This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
 
-2. USER VIEW
+**2. USER VIEW**
 
    2.1  Home
-    •  This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
-    •  Users are also allowed to sign in or register for an account in order for their details to be saved to the database.
+- This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
+- Users are also allowed to sign in or register for an account in order for their details to be saved to the database.
 
    2.2 About Us
-   •  SerenitySphere's "About Us" section provides an in-depth review of the platform, outlining its fundamental values, objectives, and vision to improve mental health.
-   •  Provides detailed summary of the business's mental health initiatives and emphasises its commitment to creating a welcoming, safe, and friendly space.
-   •  'Join Us' form to allow future therapists who want to work with Serenity Sphere.
+- SerenitySphere's "About Us" section provides an in-depth review of the platform, outlining its fundamental values, objectives, and vision to improve mental health.
+- Provides a detailed summary of the business's mental health initiatives and emphasises its commitment to creating a welcoming, safe, and friendly space.
+- 'Join Us' form to allow future therapists who want to work with Serenity Sphere.
 
    2.3 Feedback
-   •  Users can submit their experiences, recommendations, and complaints about SerenitySphere's services in the "Feedback" area.
-   •  Promotes a community-driven, participatory approach to platform improvement, creating an environment where user input directly influences continuous improvements.
+- Users can submit their experiences, recommendations, and complaints about SerenitySphere's services in the "Feedback" area.
+- Promotes a community-driven, participatory approach to platform improvement, creating an environment where user input directly influences continuous improvements.
 
    2.4 Contact Us + FAQs
-    •  "FAQ" section serves as a knowledge base for frequent questions and issues users may have regarding its features, services, and mental health resources.
-    •  Offers thorough, clear, and concise responses, giving users the knowledge they need to use the platform efficiently.
-    •  Users can submit the form provided to ask any other (unanswered) queries they have
+- "FAQ" section serves as a knowledge base for frequent questions and issues users may have regarding its features, services, and mental health resources.
+- Offers thorough, clear, and concise responses, giving users the knowledge they need to use the platform efficiently.
+- Users can submit the form provided to ask any other (unanswered) queries they have
 
     2.5 Make an Appointment
-    •  A page where users can reach out to Serenity Sphere's mental health services and customise their journey. 
-    •  Users can submit the form provided to make an appointment with a specific therapist, detailing their basic information, selected treatment and appointment date/time.
+- A page where users can reach out to Serenity Sphere's mental health services and customise their journey. 
+- Users can submit the form provided to make an appointment with a specific therapist, detailing their basic information, selected treatment and appointment date/time.
 
-3. ADMIN VIEW
+**3. ADMIN VIEW**
 
     3.1 Manage Booking Appointment
-    •  NEED TO EDIT
+- NEED TO EDIT
 
     3.2 Manage Employee Details
-    •  "NEED TO EDIT
+- "NEED TO EDIT
 
 
 
