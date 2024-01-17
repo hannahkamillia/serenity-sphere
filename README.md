@@ -22,7 +22,7 @@ This project aims to ease the user's journey in finding help for their mental he
 
 1. GENERAL VIEW
     1.1 Login Page
-    •  This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
+- This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
 
     1.2 Register
    •  This serves as the starting point, offering an overview or welcome page for users to access various sections of the website.
@@ -59,9 +59,7 @@ This project aims to ease the user's journey in finding help for their mental he
     3.2 Manage Employee Details
     •  "NEED TO EDIT
 
-## Database ERD
-[Include the Entity-Relationship Diagram for your database tables.]
-![ERD](assets/serenity_sphere.drawio.svg)
+
 
 ## Sequence Diagram
 [Include a sequence diagram to represent the interaction of the proposed web application.]
@@ -70,10 +68,6 @@ This project aims to ease the user's journey in finding help for their mental he
 ## Mockup Designs
 **Home Page**
 
-![Screenshot 2024-01-01 at 5 33 45 PM](https://github.com/surayaaini/serenity-sphere/assets/122007826/7f73d516-4edd-4c22-a986-befea213b960)
-
-
-![Screenshot 2024-01-01 at 5 34 12 PM](https://github.com/surayaaini/serenity-sphere/assets/122007826/c7280ea1-0eb0-429f-a593-52907dae8e05)
 
 
 
@@ -81,7 +75,6 @@ This project aims to ease the user's journey in finding help for their mental he
 **About Us**
 
 
-![Screenshot 2024-01-01 at 5 34 51 PM](https://github.com/surayaaini/serenity-sphere/assets/122007826/756707eb-9fa1-4ce4-860c-83feedcfdaf9)
 
 
 **Feedback**
