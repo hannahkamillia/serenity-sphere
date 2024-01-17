@@ -23,7 +23,7 @@ class FeedbackController extends Controller
       $isInsertSuccress = Feedback::insert(['name'=>$name,
                                           'email'=>$email,
                                           'message'=>$message]);
-      if($isInsertSuccress) echo 'Your feedback form has been sent successfully. Thank you!';
+      if($isInsertSuccress) echo 'Your feedback form has been sent successfully. We appreciate your feedbacks. Thank you!';
       else echo '<h1>Insert Failed<\h1>';
     }
 
