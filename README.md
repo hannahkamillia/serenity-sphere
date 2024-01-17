@@ -112,13 +112,17 @@ Describe summary about the Serenity Sphere such as the introduction, objectives 
 - The form to join Serenity Sphere as a worker
   ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/41fbaa4e-eb07-403e-8e7d-977c421e65c4)
 
-
-
 <br>
 
 **Feedback**
 <br>
 Users can submit their experiences, recommendations or any complaints about Serenity Sphere’s services. It also shows the testimonials from the user who has submitted the feedback form.
+
+- Feedback form
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/b81dafbf-c0da-45be-a203-13ef1cc64b26)
+
+- Testimonial
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/d61dfb8b-5088-44f0-863e-21d88481140f)
 
 
 <br>
