@@ -21,7 +21,7 @@
             <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
           </div>
           <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="4" placeholder="Message (Optional)"></textarea>
+            <textarea class="form-control" name="message" rows="4" placeholder="Your Comment"></textarea>
           </div>
         </div>
 
