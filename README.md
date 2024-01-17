@@ -109,7 +109,7 @@ Provides the details about the Serenity Sphere such as our address in Google Map
 **Login & Register Account**
 <br>
 The system allows the user to log in the website as a admin or customer. The admin can view the backend of the application while the customer only can see the frontend of the application. For the registration, if both of them do not have any account yet, they have to register first.
-<br>
+<br><br>
 
 **Manage Appointment Details**
 
@@ -119,7 +119,7 @@ The system allows the user to log in the website as a admin or customer. The adm
 **Manage Employee Details**
 
 
-
+<br>
 ## Challenges During Development
 
 - Working in a 6-member group evoked some challenges in regards to the communication and information transparency amongst members. This was apparent especially during task allocation and updating each other on our individual progress.
