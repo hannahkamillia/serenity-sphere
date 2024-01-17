@@ -30,7 +30,7 @@ This project aims to ease the user's journey in finding help for their mental he
 - The system allows the user to log in as a Serenity Sphere staff or admin, to view the backend of the application. 
 
 1.2 Register Account
-- Coupled with 1.1, the system allows users to register for an account if they do not have one to begin wth. 
+- Coupled with 1.1, the system allows users to register for an account if they do not have one to begin with. 
 
 <br>
 
@@ -73,7 +73,9 @@ This project aims to ease the user's journey in finding help for their mental he
 <br>
 
 ## Sequence Diagram
-Provided below is the sequence diagram that represents the user interaction to our web application:
+Provided below is the sequence diagram that represents the user interaction with our web application:
+![Sequeance Diagram Web Apps-Sequence Diagram Web App drawio](https://github.com/hannahkamillia/serenity-sphere/assets/122007826/fcccaf3f-f904-4e24-9968-578e2f9ebbdb)
+
 
 
 <be>
@@ -120,6 +122,7 @@ The system allows the user to log in the website as a admin or customer. The adm
 
 
 <br>
+
 ## Challenges During Development
 
 - Working in a 6-member group evoked some challenges in regards to the communication and information transparency amongst members. This was apparent especially during task allocation and updating each other on our individual progress.
