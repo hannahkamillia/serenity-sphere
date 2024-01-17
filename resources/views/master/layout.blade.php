@@ -63,9 +63,7 @@
         <ul>
           <li><a class="nav-link " href="/home">Home</a></li>
           <li><a class="nav-link" href="/about">About</a></li>
-          <li><a class="nav-link " href="#services">Services</a></li>
           <li><a class="nav-link" href="{{ route('feedback')}}">Feedback</a></li>
-          <li><a class="nav-link " href="#doctors">Doctors</a></li>
           <li><a class="nav-link " href="/contact">Contact</a></li>
           <li class="nav-link">
             @if (Route::has('login'))
@@ -111,10 +109,10 @@
             <div class="footer-info">
               <h3>Serenity Sphere</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> serenity.sphere@example.com<br>
+                9th Floor, Wisma Genting, Jalan Sultan,<br>
+                Kuala Lumpur 50250 Malaysia<br><br>
+                <strong>Phone:</strong> +603 4054 7774<br>
+                <strong>Email:</strong> info@serenitysphere.com<br>
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -130,29 +128,26 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="/home">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('feedback') }}">Feedback</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/contact">Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('bookapp')}}">Make an Appointment</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Psychotherapy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Cognitive Behavioral Therapy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Dialectical Behavior Therapy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Psychoeducational</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a>Psychotherapy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a>Cognitive Behavioral Therapy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a>Dialectical Behavior Therapy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a>Psychoeducational</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Stay ahead of the curve with our weekly newsletter. Get the latest news, trends, and insights of mental health delivered straight to your inbox.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+            <h4>Our Motto</h4>
+            <p>Breathe. Believe. Be well.</p>
 
           </div>
 
