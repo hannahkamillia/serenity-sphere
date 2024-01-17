@@ -86,13 +86,14 @@ There is the welcoming message. There are two button which is ‘Join Us’, to 
 
 - Home page with welcoming message and 'Join Us' button
 ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/e5ec5bcb-c9b7-445e-b187-42d6b9759285)
-<br>
+
 - Home page with 'Feedback' button
 ![Screenshot 2024-01-17 225408](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/cfcf7013-720b-4303-b303-cf7eba745ac0)
 
 
-<br>
-- The navigation bar and the footer for each page is same
+<be>
+
+- The navigation bar and the footer remains the same for every page in the web app
 ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/b31db42d-a1c8-4b36-9411-d9cc99e6060a)
   
 <br>
