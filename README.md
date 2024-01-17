@@ -131,12 +131,27 @@ Users can submit their experiences, recommendations or any complaints about Sere
 <br>
 Provides the details about the Serenity Sphere such as our address in Google Maps, phone number and emails. This page also provides FAQs from the user. New user can refer this FAQs if there is any inquiry. If the user wants to ask a question that hasn't been asked yet, there is the form provided for them to fill in the question. 
 
+- Contact details and contact us form
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/08ab6565-b8f4-480b-afda-85ef665fbe57)
+
+- FAQs
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/04a0fc89-d356-41b0-b6b0-80b0312757d6)
+  
+
 <br>
 
 **Login & Register Account**
 <br>
 The system allows the user to log in the website as a admin or customer. The admin can view the backend of the application while the customer only can see the frontend of the application. For the registration, if both of them do not have any account yet, they have to register first.
 <br><br>
+
+- Login
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/ba02bc77-d63b-402f-b370-c95f199e4fa7)
+  
+
+- Register
+  ![image](https://github.com/hannahkamillia/serenity-sphere/assets/154809072/f2363d1d-e316-4005-890b-f209b4b736ec)
+
 
 **Manage Appointment Details**
 
